@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+h1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+p{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    padding: 20px;
+}
+.back{
+    margin:20px;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 35px;
+}
+.back a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: transparent;
+}

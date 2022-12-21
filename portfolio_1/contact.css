@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+}
+h1{
+    padding: 20px;
+}
+.number,.mailid,.location{
+    padding-left: 40px;
+    padding-bottom:20px ;
+}
+.number img,.mailid img,.location img{
+    border-radius: 60px;
+}
+.linkedin a{
+    color:black;
+    text-decoration: none;
+}
+.linkedin img{
+    padding-left:40px ;
+    border-radius: 5px;
+}
+.back{
+    margin:20px;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 35px;
+}
+.back a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: transparent;
+}

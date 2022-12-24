@@ -29,7 +29,7 @@ header nav .left a {
 }
 
 header nav .left a:hover {
-    color: var(--primary);
+    color:yellow;
 }
 
 header nav {

@@ -15,7 +15,7 @@
 }
 
 header {
-    background-color:darkolivegreen;
+    background-color:black;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
 }
 
@@ -146,7 +146,7 @@ body {
     color: var(--secondary);
 }
 .main{
-    background-color:indianred;
+    background-color:navajowhite;
 }
 .main {
     display: flex;
@@ -161,7 +161,10 @@ body {
 
 section {
     padding: 6rem;
-    background-color: burlywood;
+    background-image: url("images/bgimg-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     height: fit-content;
 }
 .about .intro p{

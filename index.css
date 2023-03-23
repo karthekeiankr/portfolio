@@ -264,6 +264,8 @@ section {
     }
     .main{
         padding: 30px;
+        display: flex;
+        flex-direction: column;
     }
     section .myself h2{
         

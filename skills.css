@@ -13,7 +13,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 header {
     background-color:black;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
@@ -41,6 +40,7 @@ header nav .logo {
 }
 header nav .logo img{
     border-radius: 25px;
+
 }
 
 body {
@@ -144,6 +144,9 @@ body {
     background: var(--primary);
     color: var(--secondary);
 }
+
+
+
 
 .back{
     margin-top: 0;

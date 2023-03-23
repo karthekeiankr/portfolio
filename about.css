@@ -1,5 +1,4 @@
 @import 'utilities.css';
-@import url(https://www.bing.com/images/search?view=detailV2&ccid=1DFh43Wy&id=89BE52D32F5B3BCB0A4EB5ACD783CA8669FDC2A5&thid=OIP.1DFh43WyTT2R5fd3P-xdZwHaE8&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp2610925.jpg&exph=2592&expw=3888&q=Plain+Background&simid=607988385348525221&FORM=IRPRST&ck=70232C5E136D1FF2DA173EDD50AB8BE6&selectedIndex=13);
 
 :root {
     --primary: rgb(29, 221, 189);
@@ -146,7 +145,55 @@ body {
     background: var(--primary);
     color: var(--secondary);
 }
+.about{
+    display: flex;  
+    background-image: url("images/bgimg-2.jpg"); 
+    height: 100vh;
+    width: auto;
+    padding: 50px;
+    justify-content: center;
+}
+.about .intro p{
+    font-size: 20px;
+    font-family:monospace;
+    padding: 10px;
+}
+section .about .about-img img
+{
+    border-radius: 10px;
+    padding: 20px;
+}
+section.about h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 10px;
+}
 
+section.about h1 span {
+    color: var(--primary);
+}
+.about-imglogo{
+    padding:20px;
+}
+section.about h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+section.about p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--secondary);
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    padding: 10px;
+}
+section div .right.flex-1
+{
+    padding: 20px;
+}
 .back{
     margin-top: 0;
     margin:20px;
@@ -160,27 +207,4 @@ body {
     font-size: 20px;
     color: aliceblue;
     background-color: transparent;
-}
-.main{
-    background-image: url("images/bgimg-2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    padding: 20px;
-}
-.main h1{
-    font-size: 60px;
-    color:linear-gradient(red,pink);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:900;
-}
-.main h3{
-    padding: 20px;
-}
-.main img{
-    border-radius: 50%;
-}
-.linkedin a{
-    text-decoration: none;
-    color:black;
 }
